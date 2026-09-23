@@ -26,6 +26,8 @@
     <Folder Include="Interfaces\" />
     <Folder Include="DTOs\" />
     <Folder Include="Mapper\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Helpers\" />
     <Folder Include="Services\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
