@@ -2,7 +2,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Quan_Ly_Nha_Tro.Interfaces.IRepositoties;
 using Quan_Ly_Nha_Tro.Models;
+using Quan_Ly_Nha_Tro.Repositories;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,6 +49,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>() 
     .AddDefaultTokenProviders();
+
+
 
 var app = builder.Build();
 

@@ -24,13 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\IRepositoties\" />
     <Folder Include="Interfaces\IServices\" />
     <Folder Include="Mapper\" />
     <Folder Include="Middlewares\" />
     <Folder Include="Helpers\" />
     <Folder Include="Services\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
